@@ -3,7 +3,21 @@
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
-					<content></content>
+					<content>
+						<Button
+							activeIcon=""
+							enabled="true"
+							icon="sap-icon://full-screen"
+							iconDensityAware="true"
+							iconFirst="true"
+							text="Full Width"
+							textDirection="Inherit"
+							type="Default"
+							width="auto"
+						>
+							
+						</Button>
+					</content>
 				</Page>
 			</pages>
 		</App>
