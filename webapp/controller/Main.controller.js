@@ -6,6 +6,10 @@ sap.ui.define([
 	return Controller.extend("demo.demo_pantalla_validaciones.controller.Main", {
 		onInit: function () {
 
+		},
+
+		setfullWidth: function() {
+			this.getView().byId("app").
 		}
 	});
 });

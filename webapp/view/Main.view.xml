@@ -1,23 +1,19 @@
-<mvc:View controllerName="demo.demo_pantalla_validaciones.controller.Main" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+<mvc:View controllerName="demo.demo_pantalla_validaciones.controller.Main"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m">
 	<Shell id="shell">
 		<App id="app">
 			<pages>
-				<Page id="page" title="{i18n>title}">
+				<Page id="" title="{i18n>title}">
 					<content>
-						<Button
-							activeIcon=""
-							enabled="true"
-							icon="sap-icon://full-screen"
-							iconDensityAware="true"
-							iconFirst="true"
-							text="Full Width"
-							textDirection="Inherit"
-							type="Default"
-							width="auto"
-						>
-							
-						</Button>
 					</content>
+					<footer>
+						<Toolbar active="false" design="Auto" enabled="true" height="empty string" style="Standard" width="">
+							<content>
+								<Button activeIcon="" press=".setfullWidth" enabled="true" icon="sap-icon://full-screen" iconDensityAware="true" iconFirst="true" text="Full Width" textDirection="Inherit" type="Default" width="auto"></Button>
+							</content>
+						</Toolbar>
+					</footer>
 				</Page>
 			</pages>
 		</App>
